@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tasty Tales - The Ultimate taste!</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts     -->
+
+<header class="header">
+
+   <section class="flex">
+
+      <a href="#" class="logo"> <i class="fas fa-utensils"></i> TastyTales. </a>
+
+      <nav class="navbar">
+         <a href="#home">home</a>
+         <a href="#about">about</a>
+         <a href="#food">food</a>
+         <a href="#gallery">gallery</a>
+         <a href="#menu">menu</a>
+         <a href="#order">order</a>
+         <!-- <a href="#blogs">blogs</a> -->
+      </nav>
+   
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+   </section>
+
+</header>
+
+<!-- header section ends    -->
+
+<!-- home section starts  -->
+
+<div class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+            <div class="content">
+               <span>Tasty Tales</span>
+               <h3>Delicious Cooking</h3>
+               <a href="#food" class="btn">get started</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+            <div class="content">
+               <span>Tasty Tales</span>
+               <h3>morning moment</h3>
+               <a href="#food" class="btn">get started</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+            <div class="content">
+               <span>Tasty Tales</span>
+               <h3>authentic kitchen</h3>
+               <a href="#food" class="btn">get started</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</div>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+   <div class="image">
+      <img src="images/about-img.png" alt="">
+   </div>
+
+   <div class="content">
+      <h3 class="title">welcome to our restaurant</h3>
+      <p>Tasty Tales boasts an unmatched heritage in culinary excellence. From classic delicacies of the region to innovative fusion of multinational cuisines, Tasty Tales on has been a delectable part of happy memories for everyone.
+         We hope you have a Tasty Tales experience filled with unmatched taste, delightful contentment and memories to cherish. Bon Appetit!</p>
+      <!-- <a href="#" class="btn">read more</a> -->
+      <div class="icons-container">
+         <div class="icons">
+            <img src="images/about-icon-1.png" alt="">
+            <h3>quality food</h3>
+         </div>
+         <div class="icons">
+            <img src="images/about-icon-2.png" alt="">
+            <h3>food & drinks</h3>
+         </div>
+         <div class="icons">
+            <img src="images/about-icon-3.png" alt="">
+            <h3>expert chefs</h3>
+         </div>
+      </div>
+   </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- food section starts  -->
+
+<div class="odd-section">
+
+   <section class="food" id="food">
+
+      <div class="heading">  
+         <span>popular dishes</span>
+         <h3>our delicious food</h3>
+      </div>
+   
+      <div class="swiper food-slider">
+   
+         <div class="swiper-wrapper">
+   
+            <div class="swiper-slide slide" data-name="food-1">
+               <img src="images/food-img-1.png" alt="">
+               <h3>Mini SeaFood Platter</h3>
+               <div class="price">$39.99</div>
+            </div>
+   
+            <div class="swiper-slide slide" data-name="food-2">
+               <img src="images/food-img-2.png" alt="">
+               <h3>Breakfast Platter</h3>
+               <div class="price">$29.99</div>
+            </div>
+   
+            <div class="swiper-slide slide" data-name="food-3">
+               <img src="images/food-img-3.png" alt="">
+               <h3>Chicken Teriyaki</h3>
+               <div class="price">$9.99</div>
+            </div>
+   
+            <div class="swiper-slide slide" data-name="food-4">
+               <img src="images/food-img-4.png" alt="">
+               <h3>Garnished Salmon </h3>
+               <div class="price">$12.99</div>
+            </div>
+   
+            <div class="swiper-slide slide" data-name="food-5">
+               <img src="images/food-img-5.png" alt="">
+               <h3>Steak with potatoes</h3>
+               <div class="price">$10.99</div>
+            </div>
+   
+         </div>
+   
+         <div class="swiper-pagination"></div>
+   
+      </div>
+   
+   </section>
+
+</div>
+
+<!-- food section ends -->
+
+<!-- food preview section starts  -->
+
+<section class="food-preview-container">
+
+   <div id="close-preview" class="fas fa-times"></div>
+
+   <div class="food-preview" data-target="food-1">
+      <img src="images/food-img-1.png" alt="">
+      <h3>delicious food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+      <div class="price">$49.99</div>
+      <a href="#" class="btn">buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-2">
+      <img src="images/food-img-2.png" alt="">
+      <h3>delicious food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+      <div class="price">$49.99</div>
+      <a href="#" class="btn">buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-3">
+      <img src="images/food-img-3.png" alt="">
+      <h3>delicious food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+      <div class="price">$49.99</div>
+      <a href="#" class="btn">buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-4">
+      <img src="images/food-img-4.png" alt="">
+      <h3>delicious food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+      <div class="price">$49.99</div>
+      <a href="#" class="btn">buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-5">
+      <img src="images/food-img-5.png" alt="">
+      <h3>delicious food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+      <div class="price">$49.99</div>
+      <a href="#" class="btn">buy now</a>
+   </div>
+
+</section>
+
+<!-- food preview section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+   <div class="heading">
+      <span>our gallery</span>
+      <h3>our untold stories</h3>
+   </div>
+
+   <div class="gallery-container">
+
+      <a href="images/food-galler-img-1.jpg" class="box">
+         <img src="images/food-galler-img-1.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/food-galler-img-2.jpg" class="box">
+         <img src="images/food-galler-img-2.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/food-galler-img-3.jpg" class="box">
+         <img src="images/food-galler-img-3.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/food-galler-img-4.jpg" class="box">
+         <img src="images/food-galler-img-4.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/food-galler-img-5.jpg" class="box">
+         <img src="images/food-galler-img-5.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/food-galler-img-6.jpg" class="box">
+         <img src="images/food-galler-img-6.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+   </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- menu section starts  -->
+
+<div class="odd-section">
+
+   <section class="menu" id="menu">
+
+      <div class="heading">
+         <span>our menu</span>
+         <h3>our popular dishes</h3>
+      </div>
+   
+      <div class="swiper menu-slider">
+   
+         <div class="swiper-wrapper">
+   
+            <div class="swiper-slide slide">
+               <h3 class="title">breakfast</h3>
+               <div class="box-container">
+                  <div class="box">
+                     <div class="info">
+                        <h3>Croissants with Butter and Jam</h3>
+                        <p>Flaky, buttery croissants served with fruit preserves and butter. This classic French breakfast is light but flavorful, perfect with a cup of coffee.</p>
+                     </div>
+                     <div class="price">$9.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Full English Breakfast</h3>
+                        <p>A hearty plate consisting of bacon, sausages, eggs (fried or scrambled), baked beans, grilled tomatoes, mushrooms, and toast.</p>
+                     </div>
+                     <div class="price">$10.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Frittata</h3>
+                        <p>A baked egg dish filled with ingredients like spinach, tomatoes, cheese, and ham. It's similar to an omelet but thicker and served in slices</p>
+                     </div>
+                     <div class="price">$7.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Pho</h3>
+                        <p>A fragrant noodle soup made with a slow-cooked beef or chicken broth, rice noodles, fresh herbs (like basil and cilantro), lime, and a touch of chili.</p>
+                     </div>
+                     <div class="price">$5.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Smørrebrød</h3>
+                        <p>Open-faced rye bread sandwiches with toppings like smoked salmon, boiled eggs, radishes, and dill</p>
+                     </div>
+                     <div class="price">$6.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Idli and Sambar </h3>
+                        <p> Soft, fluffy steamed rice cakes (idli) served with a side of sambar, a spicy lentil and vegetable stew. </p>
+                     </div>
+                     <div class="price">$9.99</div>
+                  </div>
+               </div>
+            </div>
+   
+            <div class="swiper-slide slide">
+               <h3 class="title">lunch</h3>
+               <div class="box-container">
+                  <div class="box">
+                     <div class="info">
+                        <h3>Hainanese Chicken Rice</h3>
+                        <p>Tender poached chicken served with fragrant rice cooked in chicken stock, accompanied by a trio of dipping sauces: ginger paste, chili sauce, and soy sauce. </p>
+                     </div>
+                     <div class="price">$15.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Dim Sum </h3>
+                        <p>A variety of small, steamed or fried dishes, including dumplings, buns, spring rolls, and steamed meats. </p>
+                     </div>
+                     <div class="price">$17.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3> Caesar Salad</h3>
+                        <p>Crisp romaine lettuce tossed with Caesar dressing, croutons, and grated Parmesan cheese, often topped with grilled chicken for a more filling option.</p>
+                     </div>
+                     <div class="price">$19.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>BLT Sandwich</h3>
+                        <p> A simple yet delicious sandwich made with crispy bacon, lettuce, and tomato, served on toasted bread with a spread of mayonnaise. It’s quick, filling, and flavorful.</p>
+                     </div>
+                     <div class="price">$9.99</div>
+                  </div>
+               </div>
+            </div>
+   
+            <div class="swiper-slide slide">
+               <h3 class="title">dinner</h3>
+               <div class="box-container">
+                  <div class="box">
+                     <div class="info">
+                        <h3>Beef Wellington</h3>
+                        <p>A luxurious dish of beef tenderloin coated with pâté and mushroom duxelles, then wrapped in puff pastry and baked until golden.</p>
+                     </div>
+                     <div class="price">$23.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Grilled Salmon with Hollandaise Sauce</h3>
+                        <p>A healthy and flavorful dish featuring grilled salmon fillets topped with rich hollandaise sauce. </p>
+                     </div>
+                     <div class="price">$20.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Paella</h3>
+                        <p>A Spanish rice dish cooked with saffron, tomatoes, and olive oil, and often includes seafood like shrimp, mussels, and squid, as well as chicken and chorizo.</p>
+                     </div>
+                     <div class="price">$21.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Dal Makhani with Naan</h3>
+                        <p>A creamy, rich lentil curry made with black lentils and kidney beans, simmered with butter and spices.</p>
+                     </div>
+                     <div class="price">$16.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Peking Duck</h3>
+                        <p> A delicacy of Beijing, this roasted duck has crispy skin and tender meat. It’s served with thin pancakes, hoisin sauce, and sliced cucumbers and green onions, making little wraps.</p>
+                     </div>
+                     <div class="price">$19.99</div>
+                  </div>
+               </div>
+            </div>
+   
+            <div class="swiper-slide slide">
+               <h3 class="title">drinks</h3>
+               <div class="box-container">
+                  <div class="box">
+                     <div class="info">
+                        <h3>Mango Lassi</h3>
+                        <p> A smooth, yogurt-based drink blended with ripe mangoes, a dash of cardamom, and a touch of sugar.</p>
+                     </div>
+                     <div class="price">$4.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3> Fresh Lemon Mint Cooler</h3>
+                        <p>A revitalizing blend of freshly squeezed lemons, muddled mint leaves, and a splash of soda water.</p>
+                     </div>
+                     <div class="price">$5.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Lychee Iced Tea</h3>
+                        <p>A delicate and fragrant black tea infused with the sweet, floral flavor of lychee fruit.</p>
+                     </div>
+                     <div class="price">$6.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Pomegranate Spritzer</h3>
+                        <p> A sparkling combination of pomegranate juice, club soda, and a splash of lime</p>
+                     </div>
+                     <div class="price">$7.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Watermelon Agua Fresca</h3>
+                        <p> A light and refreshing drink made from fresh watermelon juice, a splash of lime, and a hint of sugar.</p>
+                     </div>
+                     <div class="price">$4.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3> Iced Chai Latte</h3>
+                        <p>Spiced black tea infused with cinnamon, cardamom, and cloves, blended with chilled milk and poured over ice.</p>
+                     </div>
+                     <div class="price">$5.99</div>
+                  </div>
+               </div>
+            </div>
+
+   
+         </div>
+   
+         <div class="swiper-pagination"></div>
+   
+      </div>
+   
+   </section>
+
+</div>
+
+<!-- menu section ends -->
+
+<!-- order section starts  -->
+
+<div class="order-container">
+
+   <section class="order" id="order">
+
+      <div class="heading">
+         <span>order now</span>
+         <h3>fast home delivery</h3>
+      </div>
+   
+      <form action="">
+         <div class="box-container">
+            <div class="box">
+               <div class="inputBox">
+                  <span>full name</span>
+                  <input type="text" placeholder="enter your name" required>
+               </div>
+               <div class="inputBox">
+                  <span>Dish name</span>
+                  <input type="text" placeholder="Dish you need" required>
+               </div>
+               <div class="inputBox">
+                  <span>order details</span>
+                  <input type="text" placeholder="specifics with food" required>
+               </div>
+               <div class="inputBox">
+                  <span>your address</span>
+                  <textarea name="" placeholder="enter your address" id="" cols="30" rows="10" required></textarea>
+               </div>
+            </div>
+            <div class="box">
+               <div class="inputBox">
+                  <span>contact number</span>
+                  <input type="number" placeholder="enter your number" required>
+               </div>
+               <div class="inputBox">
+                  <span>Quantity</span>
+                  <input type="number" placeholder="how many you want" required>
+               </div>
+               <div class="inputBox">
+                  <span>when you want</span>
+                  <input type="datetime-local" required>
+               </div>
+               <div class="inputBox">
+                  <span>our address</span>
+                  <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.962588780339!2d0.00822357551782698!3d51.53224600888935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a7f212d4ffe9%3A0x26e20d3a562587f6!2sMeath%20Rd%2C%20London%20E15%203DS!5e0!3m2!1sen!2suk!4v1729780401790!5m2!1sen!2suk" allowfullscreen="" loading="lazy"></iframe>
+               </div>
+            </div>
+         </div>
+         <input type="submit" value="order now" class="btn">
+      </form>
+      
+   </section>
+
+</div>
+
+<!-- order section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="icons-container">
+
+      <div class="icons">
+         <i class="fas fa-clock"></i>
+         <h3>opening hours</h3>
+         <p>10:00am to 10:00pm</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-phone"></i>
+         <h3>phone</h3>
+         <p>+44-456-777-7890</p>
+         <p>+44-800-222-3333</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-envelope"></i>
+         <h3>email</h3>
+         <p>TastyTales123@gmail.com</p>
+         <p>Tasty_official33@gmail.com</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-map"></i>
+         <h3>address</h3>
+         <p>69 Meath Road, London E15 3DS</p>
+      </div>
+
+   </div>
+
+   <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+   </div>
+
+   <div class="credit"> Copyright@TastyTales2024</div>
+
+</section>
+
+<!-- footer section ends  -->
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
+</body>
+</html>
